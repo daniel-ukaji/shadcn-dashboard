@@ -18,7 +18,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
+
     <html lang="en">
       <body
         className={cn(
@@ -31,7 +33,7 @@ export default function RootLayout({
       >
         {/* sidebar */}
         {/* <p className="border">Sidebar</p> */}
-        <SideNavbar />
+        {/* <SideNavbar /> */}
         {/* main page */}
         <div className="p-8 w-full">{children}</div>
       </body>
